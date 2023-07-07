@@ -1,0 +1,46 @@
+
+
+
+
+
+
+
+  .spinner {
+    width: 2rem;
+    height: 2rem;
+    position: relative;
+    margin: 0 auto;
+
+    margin-left: 550px !important;
+  }
+  
+  .spinner:before {
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 0.25rem solid #ccc;
+    border-top-color: #000;
+    animation: spin 1s infinite linear;
+  }
+  
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .column {
+    width: 50%;
+  }
+  
+
+  .showBtn{
+    position: relative;
+    z-index: 999;
+    
+  }
